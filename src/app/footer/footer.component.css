@@ -1,0 +1,20 @@
+footer{
+    margin-top: 40px;
+    color: #FFF;
+    background:#050606;
+    border-top: 1px solid #fec400;
+}
+
+footer h5{
+    padding: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #888;
+    transition: all .5s ease-in-out;
+}
+
+footer a:hover{
+    color: #fec400;
+}

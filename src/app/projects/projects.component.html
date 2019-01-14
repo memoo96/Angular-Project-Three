@@ -1,0 +1,12 @@
+<div id="Project-content">
+  <h2>{{projects.title}}</h2>
+  <ul>
+    <li *ngFor="let project of projects.list">
+      <img src="{{project.img}}" />
+      <h3>{{project.title}}</h3>
+      <p>{{project.desc}}</p>
+      <button>{{project.more}}</button>
+    </li>
+  </ul>
+</div>
+<app-footer></app-footer>

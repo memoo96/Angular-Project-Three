@@ -1,0 +1,16 @@
+<section  class="container">
+    <div *ngFor="let char of home.chars" class="{{char.classname}}" [ngStyle]="{'animation-delay': char.animation}">{{char.letter}}</div>
+</section>
+<section class="infoCont">
+    <div id="username">
+      <div class="username" style="animation-delay: 1.5s;">{{home.username}}</div>
+    </div>
+</section>
+
+
+
+<!-- Bubbles -->
+<div id="background-wrap">
+    <div *ngFor="let bubble of home.bubbles" class="{{bubble.classname}} {{bubble.size}}"></div>
+</div>
+
